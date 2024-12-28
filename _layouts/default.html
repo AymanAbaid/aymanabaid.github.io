@@ -3,122 +3,187 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trung Tran</title>
+    <title>Trung Tran - AI Enthusiast</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
+        /* General Reset */
+        * {
+            margin: 0;
             padding: 0;
-            background-color: #f9f9f9;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
         }
         header {
+            background: linear-gradient(to right, #0073e6, #0099ff);
+            color: white;
+            padding: 20px 40px;
+        }
+        header .content {
             display: flex;
-            justify-content: space-between;
             align-items: center;
+            justify-content: space-between;
             flex-wrap: wrap;
-            margin-bottom: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
         }
         header img {
-            border-radius: 8px;
-            width: 150px;
-            height: auto;
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            border: 3px solid white;
         }
-        h1 {
-            margin: 0;
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
         }
-        a {
-            text-decoration: none;
-            color: #0073e6;
+        header p {
+            max-width: 600px;
+            margin: 10px 0;
+            font-size: 1rem;
+        }
+        .social-links {
+            margin-top: 10px;
         }
         .social-links a {
             margin-right: 15px;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s;
         }
-        .contact {
-            margin-top: 10px;
-            font-style: italic;
+        .social-links a:hover {
+            color: #ffdd57;
+        }
+        main {
+            padding: 20px 40px;
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
         section {
-            margin-top: 20px;
-            padding: 15px;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        section h2 {
+            font-size: 1.8rem;
+            color: #0073e6;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #f4f4f9;
+            padding-bottom: 5px;
         }
         .news-item {
             margin-bottom: 15px;
         }
-        ul {
-            list-style: none;
-            padding: 0;
+        .news-item h3 {
+            font-size: 1.2rem;
+            color: #333;
+            margin-bottom: 5px;
         }
-        ul li {
-            margin-bottom: 10px;
+        .news-item p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            font-size: 1rem;
         }
         footer {
+            background-color: #0073e6;
+            color: white;
             text-align: center;
-            margin-top: 20px;
+            padding: 15px;
+            font-size: 0.9rem;
+            margin-top: 30px;
+        }
+        footer .social-links a {
+            color: white;
+            font-size: 1rem;
+            margin-right: 15px;
+        }
+        footer .social-links a:hover {
+            color: #ffdd57;
         }
     </style>
 </head>
 <body>
     <header>
-        <div>
-            <h1>Trung Tran</h1>
-            <p>
-                I'm an AI enthusiast, Phd , currently working as a Data Scientist at Pixta Vietnam. 
-                I am also the Chief Technology Officer at <a href="#">ClientScan</a> and a co-founder of <a href="#">TakeNote.ai</a>, 
-                both based in Oxford, UK. I’m passionate about turning AI into practical solutions. My main interests are in 
-                foundation models, computer vision, vision-language models, voice processing, and chatbots.
-            </p>
-            <p>
-                I hold a Master’s degree from <a href="#">Politecnico di Torino</a>, where I was mentored by Prof. Fabio Dovis. 
-                Prior to that, I earned my CS engineering degree from <a href="#">Hanoi University of Science and Technology</a> in Vietnam.
-            </p>
-            <p class="contact">Contact: trungtranthanh1990 at gmail dot com</p>
-        </div>
-        <div>
-            <img src="images/logo.PNG" alt="Trung Tran">
-            <div class="social-links">
-                <a href="#">LinkedIn</a>
-                <a href="#">Twitter</a>
-                <a href="#">Medium</a>
-                <a href="#">GitHub</a>
-                <a href="#">ORCID</a>
+        <div class="content">
+            <div>
+                <h1>Trung Tran</h1>
+                <p>
+                    I'm an AI enthusiast, currently working as a Data Scientist at Pixta Vietnam. 
+                    I am also the Chief Technology Officer at <a href="#" style="color: #ffdd57;">ClientScan</a> 
+                    and co-founder of <a href="#" style="color: #ffdd57;">TakeNote.ai</a>, both based in Oxford, UK. 
+                    I’m passionate about turning AI into practical solutions. My main interests are foundation models, 
+                    computer vision, vision-language models, voice processing, and chatbots.
+                </p>
+                <p>
+                    I hold a Master’s degree from <a href="#" style="color: #ffdd57;">Politecnico di Torino</a>, 
+                    where I was mentored by Prof. Fabio Dovis. Prior to that, I earned my CS engineering degree from 
+                    <a href="#" style="color: #ffdd57;">Hanoi University of Science and Technology</a> in Vietnam.
+                </p>
+                <p style="font-style: italic;">Contact: trungtranthanh1990 at gmail dot com</p>
+                <div class="social-links">
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Medium</a>
+                    <a href="#">GitHub</a>
+                    <a href="#">ORCID</a>
+                </div>
             </div>
-            <p>© 2024 Trung Tran</p>
+            <img src="profile-picture.jpg" alt="Trung Tran's Profile Picture">
         </div>
     </header>
-    <section>
-        <h2>NEWS</h2>
-        <div class="news-item">
-            <h3>Research life:</h3>
-            <p>
-                I am a Fatima Pre-Doctoral Fellow where I am working with Ph.D. Ismet Dagli developing techniques to enhance performance and 
-                optimize memory for LLMs / LVMs / foundation models on edge devices.
-            </p>
+    <main>
+        <section>
+            <h2>News</h2>
+            <div class="news-item">
+                <h3>Research life:</h3>
+                <p>
+                    I am a Fatima Pre-Doctoral Fellow where I am working with Ph.D. Ismet Dagli developing techniques 
+                    to enhance performance and optimize memory for LLMs / LVMs / foundation models on edge devices.
+                </p>
+            </div>
+            <div class="news-item">
+                <h3>New Chapter Published:</h3>
+                <p>
+                    I'm excited to announce my latest chapter, 
+                    <a href="#" style="color: #0073e6;">"Generative AI: Ethical Challenges for Teachers and Learners"</a>. 
+                    This work, co-authored with TT Tran, is featured in the 2024 edition of Generative AI in Teaching and Learning. 
+                    It explores the delicate balance between leveraging AI and maintaining ethical standards in education.
+                </p>
+            </div>
+        </section>
+        <section>
+            <h2>My Companies</h2>
+            <ul>
+                <li>
+                    <strong>ClientScan:</strong> We're conducting the first trial on September 5th, marking a significant milestone in our journey.
+                </li>
+                <li>
+                    <strong>TakeNote.ai:</strong> We will roll out a new feature! Now, TakeNote.ai can summarize long audio files, 
+                    making it easier to digest extended recordings.
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Trung Tran</p>
+        <div class="social-links">
+            <a href="#">LinkedIn</a>
+            <a href="#">Twitter</a>
+            <a href="#">Medium</a>
+            <a href="#">GitHub</a>
+            <a href="#">ORCID</a>
         </div>
-        <div class="news-item">
-            <h3>New Chapter Published:</h3>
-            <p>
-                I'm excited to announce my latest chapter, 
-                <a href="#">"Generative AI: Ethical Challenges for Teachers and Learners"</a>. This work, co-authored with TT Tran, 
-                is featured in the 2024 edition of Generative AI in Teaching and Learning. It explores the delicate balance 
-                between leveraging AI and maintaining ethical standards in education.
-            </p>
-        </div>
-    </section>
-    <section>
-        <h2>My Companies</h2>
-        <ul>
-            <li>
-                <strong>ClientScan:</strong> We're conducting the first trial on September 5th, marking a significant milestone in our journey.
-            </li>
-            <li>
-                <strong>TakeNote.ai:</strong> We will roll out a new feature! Now, TakeNote.ai can summarize long audio files, making it easier 
-                to digest extended recordings.
-            </li>
-        </ul>
-    </section>
+    </footer>
 </body>
 </html>
