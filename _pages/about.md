@@ -6,7 +6,7 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Ayman.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Email: a (dot) abaid1 (at) universityofgalway (dot) ie</p>
@@ -25,7 +25,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD candidate in Artificial Intelligence at the University of Galway, supervised by Ihsan Ullah. My research centers on deep learning, generative models, and robust representation learning. Specifically, I focus on applying deep learning techniques to medical image analysis, spanning both practical applications and fundamental research. Key areas of interest include generative models, domain adaptation, and text-to-image and video synthesis.
+I am a PhD candidate in Artificial Intelligence at the University of Galway, supervised by <a href='#'>Ihsan Ullah</a>. My research centers on deep learning, generative models, and robust representation learning. Specifically, I focus on applying deep learning techniques to medical image analysis, spanning both practical applications and fundamental research. Key areas of interest include generative models, domain adaptation, and text-to-image and video synthesis.
+Outside my research I’m training for my first marathon, exploring new places when I can, and enjoying a good book or two each month.
+
 You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
