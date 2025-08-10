@@ -151,7 +151,10 @@ collections:
     output: true
   projects:
     output: true
-
+  talks:
+    output: true
+  posters:
+    output: true
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
