@@ -467,12 +467,10 @@ ninja.data = [{
             },},{id: "talks-threesis",
           title: 'Threesis',
           description: "",
-          section: "Talks",},{id: "talks-talk-at-ihdi-seminar-series",
-          title: 'Talk at IHDI Seminar Series',
+          section: "Talks",},{id: "talks-invited-presentation-for-the-ihdi-seminar-series-at-the-university-of-galway-event-page-is-here-and-slides-are-here",
+          title: 'Invited presentation for the IHDI Seminar Series at the University of Galway. Event...',
           description: "",
-          section: "Talks",handler: () => {
-              window.location.href = "/talks/talk_1/";
-            },},{
+          section: "Talks",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
