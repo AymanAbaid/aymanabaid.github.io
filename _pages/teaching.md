@@ -5,7 +5,6 @@ title: Talks & Posters
 nav: true
 nav_order: 2
 ---
-
 ## Talks
 {% include talks.liquid %}
 
