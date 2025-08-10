@@ -1,13 +1,13 @@
 ---
 layout: page
-permalink: /teaching/
+permalink: /presentation/
 title: Talks & Posters
 nav: true
 nav_order: 2
 ---
 
 ## Talks
-{% include news.liquid %}
+{% include talks.liquid %}
 
 ## Posters
-{% include news.liquid %}
+{% include posters.liquid %}
