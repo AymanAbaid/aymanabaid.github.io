@@ -7,11 +7,7 @@ nav_order: 2
 ---
 
 ## Talks
-{% for talk in site.talks %}
-- **{{ talk.title }}** — {{ talk.event }}, {{ talk.date | date: "%B %Y" }}
-{% endfor %}
+{% include news.liquid %}
 
 ## Posters
-{% for poster in site.posters %}
-- **{{ poster.title }}** — {{ poster.event }}, {{ poster.date | date: "%B %Y" }}
-{% endfor %}
+{% include news.liquid %}
