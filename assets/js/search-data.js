@@ -464,7 +464,10 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "talks-ihdi-presentation",
+            },},{id: "talks-threesis",
+          title: 'Threesis',
+          description: "",
+          section: "Talks",},{id: "talks-ihdi-presentation",
           title: 'IHDI presentation',
           description: "",
           section: "Talks",},{
