@@ -464,11 +464,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "talks-threesis",
-          title: 'Threesis',
-          description: "",
-          section: "Talks",},{id: "talks-invited-presentation-for-the-ihdi-seminar-series-at-the-university-of-galway-event-page-is-here-and-slides-are-here",
+            },},{id: "talks-invited-presentation-for-the-ihdi-seminar-series-at-the-university-of-galway-event-page-is-here-and-slides-are-here",
           title: 'Invited presentation for the IHDI Seminar Series at the University of Galway. Event...',
+          description: "",
+          section: "Talks",},{id: "talks-qualified-as-a-finalist-in-the-university-of-galway-three-minute-thesis-competition-video-of-the-presentation-is-available-here",
+          title: 'Qualified as a finalist in the University of Galway Three Minute Thesis competition....',
           description: "",
           section: "Talks",},{
         id: 'social-email',
