@@ -152,8 +152,12 @@ collections:
   projects:
     output: true
   talks:
+    defaults:
+      layout: post
     output: true
   posters:
+    defaults:
+      layout: post
     output: true
 # -----------------------------------------------------------------------------
 # Jekyll settings
