@@ -7,7 +7,7 @@ nav_order: 2
 ---
 
 ## Talks
-{% include talks.liquid %}
+{% include news.liquid %}
 
 ## Posters
-{% include posters.liquid %}
+{% include news.liquid %}
