@@ -467,10 +467,12 @@ ninja.data = [{
             },},{id: "talks-threesis",
           title: 'Threesis',
           description: "",
-          section: "Talks",},{id: "talks-ihdi-presentation",
-          title: 'IHDI presentation',
+          section: "Talks",},{id: "talks-talk-at-ihdi-seminar-series",
+          title: 'Talk at IHDI Seminar Series',
           description: "",
-          section: "Talks",},{
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/talk_1/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
