@@ -474,18 +474,11 @@ ninja.data = [{
           window.open("mailto:%61.%61%62%61%69%64%31@%75%6E%69%76%65%72%73%69%74%79%6F%66%67%61%6C%77%61%79.%69%65", "_blank");
         },
       },{
-        id: 'social-leetcode',
-        title: 'LeetCode',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://leetcode.com/u//", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://www.linkedin.com/in/ayman-abaid-51802615a", "_blank");
         },
       },{
         id: 'social-scholar',
