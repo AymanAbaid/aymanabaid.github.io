@@ -5,5 +5,5 @@ title: CV
 nav: true
 nav_order: 3
 cv_pdf: PhD_Resume.pdf
-description: 
+description: You can download my CV from here.
 ---
