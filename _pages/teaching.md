@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /presentation/
-title: Talks and Posters
+permalink: /teaching/
+title: Talks
 nav: true
 nav_order: 2
 ---
