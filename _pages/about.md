@@ -25,7 +25,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD candidate in Artificial Intelligence at the University of Galway, supervised by <a href='#'>Ihsan Ullah</a>. My research centers on deep learning, generative models, and robust representation learning. Specifically, I focus on applying deep learning techniques to medical image analysis, spanning both practical applications and fundamental research. Key areas of interest include generative models, domain adaptation, and text-to-image and video synthesis.
-
+I am a PhD candidate at the School of Computer Science, University of Galway, supervised by <a href='#'>Ihsan Ullah</a>. My research focuses on deep learning, generative models, and robust representation learning. In particular, I apply deep learning techniques to medical image analysis, spanning both practical applications and fundamental research. Key areas of interest include generative models, domain adaptation, and text-to-image and video synthesis.
 
 Outside my research I’m training for my first marathon, exploring new places when I can, and enjoying a good book or two each month.
