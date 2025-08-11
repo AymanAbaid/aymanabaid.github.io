@@ -9,4 +9,4 @@ nav_order: 2
 {% include talks.liquid %}
 
 ## Posters
-{% include news.liquid %}
+{% include posters.liquid %}
