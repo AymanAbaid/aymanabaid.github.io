@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /presentation/
+permalink: /teaching/
 title: 
 nav: true
 nav_order: 2
