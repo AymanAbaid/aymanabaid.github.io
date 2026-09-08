@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: Ayman.png
+  image: Ayman.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Email: a (dot) abaid1 (at) universityofgalway (dot) ie</p>
